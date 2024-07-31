@@ -5,7 +5,10 @@
   "description": "Control autoplay settings for media on web pages.",
   "permissions": [
     "tabs",
-    "scripting"
+    "scripting",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
   ],
   "background": {
     "service_worker": "background.js"
